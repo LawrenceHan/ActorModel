@@ -23,7 +23,7 @@
 
 - (void)准备:(NSDictionary *)options {
     NSLog(@"actor 准备执行，可以在这个阶段为正式执行准备一些参数。此时线程已经切换到ActorQueue");
-    _用户名 = @"韩光";
+    _用户名 = @"张三";
 }
 
 - (void)执行:(NSDictionary *)options {
