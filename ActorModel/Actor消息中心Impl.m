@@ -119,7 +119,7 @@ Actor消息中心Impl *Actor消息中心(void) {
             }
         });
 #else
-        dispatch_async([self globalActorDispatchQueue], block);
+        dispatch_async([self 串行ActorDispatchQueue], block);
 #endif
     }
 }
